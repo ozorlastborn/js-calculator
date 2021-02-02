@@ -1,0 +1,232 @@
+body{
+
+    margin: 0%;
+
+    padding: 0%;
+
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+
+    font-size: 62.5%;
+    background: grey
+
+    /*background-color: rgb(227, 231, 235);*/
+
+    box-sizing: border-box;
+  
+
+}
+span{
+    color: red;
+}
+
+.main {
+
+    position: relative;
+
+    font-size: 1.2rem;
+
+    background: gold;   
+
+    margin: 90px auto;
+
+    min-height: 550px;
+
+    width: 350px;
+
+    border-radius: 20px 90px 20px 90px;
+
+    text-align: center;
+
+    box-shadow: -14px -14px 20px rgb(238, 244, 247), 10px 10px 20px rgb(119, 117, 117);
+
+}
+.del{
+    background: gold;
+}
+
+.wrapper {
+
+    padding: 30px;
+
+}
+
+.screen {
+    word-wrap: break-word; 
+  
+    direction: ltr;
+
+    padding-top: 5px;
+
+    padding-right: 10px;
+
+    text-align: end;
+
+    font-size: 1.2rem;
+
+    color: rgb(73, 72, 72);
+
+    box-sizing: border-box;
+
+    display: block;
+
+    margin: 30px auto;
+
+    width: 250px;
+
+    min-height: 60px;
+
+    border-radius: 20px;
+
+    font-weight: 900;
+
+    background-color: rgb(233, 236, 240);
+
+    border: 0px;
+
+    box-shadow: inset 2px 2px 3px black, inset 4px 2px 3px black;
+
+}
+
+#screen-top {
+
+    font-size: 1.1rem;
+
+}
+
+#screen-bottom {
+
+    margin-top: -4px;
+
+    font-size: 1.5rem;
+    /*opacity: 10%;*/
+
+}
+
+.calculator-buttons {
+
+    position: relative;
+
+    height: 75%;
+
+    margin-top: 50px;
+
+}
+
+.colums {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    width: 100%;            
+
+}
+
+.btn {
+
+    box-sizing: border-box;
+
+    text-align: center;
+
+    padding-top: 0px;
+
+    cursor: pointer;
+    box-shadow: 5px 1px 10px grey;
+
+    /*box-shadow: -14px -14px 10px rgb(238, 244, 247), 5px 5px 5px rgb(119, 117, 117);*/
+
+    width: 50px;
+
+    height: 50px;
+
+    border: none;
+
+    border-radius: 9px;
+
+    font-size: 1rem;
+
+    margin: 10px;
+
+}
+
+.black {
+
+    background-color: black;
+
+    color: white;
+
+}
+ .cop, h3{    
+        margin-top: -5%;
+    }
+
+@media screen and (max-width: 400px) {
+
+    .btn {
+
+        width: 40px;
+
+        padding-top: 0%;
+
+        height: 40px;
+
+        margin: 8px;
+
+        font-size: 0.9rem;
+
+        box-shadow: -10px -10px 5px rgb(238, 244, 247), 5px 5px 4px rgb(119, 117, 117);
+
+    }
+
+    .calculator-buttons {
+
+        height: 400px;
+
+        width: 200px;
+
+        margin: 0%;
+
+    }
+
+    .main {
+
+        margin: 50px auto;
+
+        height: 430px;
+
+        width: 250px;
+
+    }
+   
+
+    .screen {
+
+        padding-top: 5px;
+
+        padding-right: 10px;
+
+        margin: 20px auto;
+
+        width: 190px;
+
+        height: 50px;
+
+    }
+
+    #screen-top {
+
+        font-size: 1rem;
+
+    }
+
+    #screen-bottom {
+
+        margin-top: -4px;
+
+        font-size: 1.3rem;
+
+        overflow: hidden;
+
+    }
+
+}
